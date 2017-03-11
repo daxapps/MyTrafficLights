@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E002442A1E738507002164A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00244291E738507002164A8 /* main.m */; };
+		E002442D1E738507002164A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E002442C1E738507002164A8 /* AppDelegate.m */; };
+		E00244301E738507002164A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E002442F1E738507002164A8 /* ViewController.m */; };
+		E00244331E738507002164A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00244311E738507002164A8 /* Main.storyboard */; };
+		E00244351E738507002164A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00244341E738507002164A8 /* Assets.xcassets */; };
+		E00244381E738507002164A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00244361E738507002164A8 /* LaunchScreen.storyboard */; };
+		E00244431E738507002164A8 /* MyTrafficLightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00244421E738507002164A8 /* MyTrafficLightsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E002443F1E738507002164A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E002441D1E738507002164A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00244241E738507002164A8;
+			remoteInfo = MyTrafficLights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E00244251E738507002164A8 /* MyTrafficLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTrafficLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00244291E738507002164A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E002442B1E738507002164A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E002442C1E738507002164A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E002442E1E738507002164A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E002442F1E738507002164A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E00244321E738507002164A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00244341E738507002164A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00244371E738507002164A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E00244391E738507002164A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E002443E1E738507002164A8 /* MyTrafficLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTrafficLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00244421E738507002164A8 /* MyTrafficLightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTrafficLightsTests.m; sourceTree = "<group>"; };
+		E00244441E738507002164A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00244221E738507002164A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E002443B1E738507002164A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E002441C1E738507002164A8 = {
+			isa = PBXGroup;
+			children = (
+				E00244271E738507002164A8 /* MyTrafficLights */,
+				E00244411E738507002164A8 /* MyTrafficLightsTests */,
+				E00244261E738507002164A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00244261E738507002164A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00244251E738507002164A8 /* MyTrafficLights.app */,
+				E002443E1E738507002164A8 /* MyTrafficLightsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00244271E738507002164A8 /* MyTrafficLights */ = {
+			isa = PBXGroup;
+			children = (
+				E002442B1E738507002164A8 /* AppDelegate.h */,
+				E002442C1E738507002164A8 /* AppDelegate.m */,
+				E002442E1E738507002164A8 /* ViewController.h */,
+				E002442F1E738507002164A8 /* ViewController.m */,
+				E00244311E738507002164A8 /* Main.storyboard */,
+				E00244341E738507002164A8 /* Assets.xcassets */,
+				E00244361E738507002164A8 /* LaunchScreen.storyboard */,
+				E00244391E738507002164A8 /* Info.plist */,
+				E00244281E738507002164A8 /* Supporting Files */,
+			);
+			path = MyTrafficLights;
+			sourceTree = "<group>";
+		};
+		E00244281E738507002164A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00244291E738507002164A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00244411E738507002164A8 /* MyTrafficLightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E00244421E738507002164A8 /* MyTrafficLightsTests.m */,
+				E00244441E738507002164A8 /* Info.plist */,
+			);
+			path = MyTrafficLightsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00244241E738507002164A8 /* MyTrafficLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00244471E738507002164A8 /* Build configuration list for PBXNativeTarget "MyTrafficLights" */;
+			buildPhases = (
+				E00244211E738507002164A8 /* Sources */,
+				E00244221E738507002164A8 /* Frameworks */,
+				E00244231E738507002164A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTrafficLights;
+			productName = MyTrafficLights;
+			productReference = E00244251E738507002164A8 /* MyTrafficLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E002443D1E738507002164A8 /* MyTrafficLightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E002444A1E738507002164A8 /* Build configuration list for PBXNativeTarget "MyTrafficLightsTests" */;
+			buildPhases = (
+				E002443A1E738507002164A8 /* Sources */,
+				E002443B1E738507002164A8 /* Frameworks */,
+				E002443C1E738507002164A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00244401E738507002164A8 /* PBXTargetDependency */,
+			);
+			name = MyTrafficLightsTests;
+			productName = MyTrafficLightsTests;
+			productReference = E002443E1E738507002164A8 /* MyTrafficLightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E002441D1E738507002164A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jason Crawford";
+				TargetAttributes = {
+					E00244241E738507002164A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EN498SV6Q8;
+						ProvisioningStyle = Automatic;
+					};
+					E002443D1E738507002164A8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EN498SV6Q8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E00244241E738507002164A8;
+					};
+				};
+			};
+			buildConfigurationList = E00244201E738507002164A8 /* Build configuration list for PBXProject "MyTrafficLights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E002441C1E738507002164A8;
+			productRefGroup = E00244261E738507002164A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00244241E738507002164A8 /* MyTrafficLights */,
+				E002443D1E738507002164A8 /* MyTrafficLightsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00244231E738507002164A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00244381E738507002164A8 /* LaunchScreen.storyboard in Resources */,
+				E00244351E738507002164A8 /* Assets.xcassets in Resources */,
+				E00244331E738507002164A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E002443C1E738507002164A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00244211E738507002164A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00244301E738507002164A8 /* ViewController.m in Sources */,
+				E002442D1E738507002164A8 /* AppDelegate.m in Sources */,
+				E002442A1E738507002164A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E002443A1E738507002164A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00244431E738507002164A8 /* MyTrafficLightsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00244401E738507002164A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00244241E738507002164A8 /* MyTrafficLights */;
+			targetProxy = E002443F1E738507002164A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00244311E738507002164A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00244321E738507002164A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E00244361E738507002164A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00244371E738507002164A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00244451E738507002164A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E00244461E738507002164A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00244481E738507002164A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTrafficLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTrafficLights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E00244491E738507002164A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTrafficLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTrafficLights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E002444B1E738507002164A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTrafficLightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTrafficLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTrafficLights.app/MyTrafficLights";
+			};
+			name = Debug;
+		};
+		E002444C1E738507002164A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EN498SV6Q8;
+				INFOPLIST_FILE = MyTrafficLightsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daxapps.MyTrafficLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyTrafficLights.app/MyTrafficLights";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00244201E738507002164A8 /* Build configuration list for PBXProject "MyTrafficLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00244451E738507002164A8 /* Debug */,
+				E00244461E738507002164A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00244471E738507002164A8 /* Build configuration list for PBXNativeTarget "MyTrafficLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00244481E738507002164A8 /* Debug */,
+				E00244491E738507002164A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E002444A1E738507002164A8 /* Build configuration list for PBXNativeTarget "MyTrafficLightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E002444B1E738507002164A8 /* Debug */,
+				E002444C1E738507002164A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E002441D1E738507002164A8 /* Project object */;
+}
